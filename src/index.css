@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+     scroll-padding-top: 80px;
+  }
+ 
+
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white font-sans;
+  }
+  h1, h2, h3 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block px-6 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition;
+  }
+
+  .section-title {
+    @apply text-3xl font-extrabold text-center text-gray-800 dark:text-white mb-8;
+  }
+
+  .card {
+    @apply bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md transition hover:scale-105;
+  }
+}
