@@ -33,7 +33,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 1.2 }}
       >
-        Data Analyst @ Polestar Solutions&nbsp; | &nbsp;Undergraduate Researcher&nbsp; | &nbsp;ML & AI Enthusiast
+        Data Analyst &nbsp; | &nbsp;Undergraduate Researcher&nbsp; | &nbsp;ML & AI Enthusiast
       </motion.p>
     </motion.section>
   );
