@@ -2,12 +2,19 @@ import { motion } from "framer-motion";
 
 export default function Experience() {
   const experiences = [
+    // {
+    //   role: "Data Analyst",
+    //   company: "Polestar Solutions",
+    //   date: "June 2025 – Present",
+    //   description:
+    //     "Recently placed as a Data Analyst. Applying analytical methodologies to drive business insights using data visualization, SQL, and predictive modeling.",
+    // },
     {
-      role: "Data Analyst",
-      company: "Polestar Solutions",
-      date: "June 2025 – Present",
+      role: "Software Trainee",
+      company: "CyberSWIFT Infotech",
+      date: "Aug 2024 – Jan 2025",
       description:
-        "Recently placed as a Data Analyst. Applying analytical methodologies to drive business insights using data visualization, SQL, and predictive modeling.",
+        "Full-stack developer on a PERN-based Land Acquisition System. Built 4 modules, resolved 200+ bugs, and collaborated within a 7-member agile team.",
     },
     {
       role: "Undergraduate Researcher",
@@ -24,12 +31,12 @@ export default function Experience() {
         "Investigated EV market trends with a projected 18.2% growth (2021–2030). Developed a cement quality prediction web app using ML, achieving 92.23% accuracy through advanced modeling and data analysis.",
     },
     {
-      role: "Software Trainee",
-      company: "CyberSWIFT Infotech",
-      date: "Aug 2024 – Jan 2025",
-      description:
-        "Full-stack developer on a PERN-based Land Acquisition System. Built 4 modules, resolved 200+ bugs, and collaborated within a 7-member agile team.",
-    },
+    role: "Data Science Intern",
+    company: "Celebal Technologies, Kolkata",
+    date: "May 2024 – Jul 2024",
+    description:
+      "Optimized several ML models with a 15% accuracy boost, processed 100K+ records, reduced data noise by 25%, enhanced feature selection by 22%, and improved pipeline efficiency by 30%.",
+  },
   ];
 
   return (
